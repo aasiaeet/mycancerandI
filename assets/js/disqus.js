@@ -39,7 +39,7 @@ if ( !ds_loaded && ( window.scrollY || window.pageYOffset ) + window.innerHeight
   var dsq = document.createElement("script");
   dsq.type = "text/javascript";
   dsq.async = true;
-  dsq.src = "http://" + window.disqus_shortname + ".disqus.com/embed.js";
+  dsq.src = "https://" + window.disqus_shortname + ".disqus.com/embed.js";
   if(document.getElementById("dcl-hidden-div")) {
     document.getElementById("dcl-hidden-div").innerHTML = "Loading...";
   }
@@ -63,7 +63,7 @@ $(document).ready(function() {
           // ajax request to load the disqus javascript
           $.ajax({
             type: "GET",
-            url: "http://" + disqus_shortname + ".disqus.com/embed.js",
+            url: "https://" + disqus_shortname + ".disqus.com/embed.js",
             dataType: "script",
             cache: true
           });
