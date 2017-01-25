@@ -1,4 +1,4 @@
-var disqus_shortname = 'fatemehkh';
+var disqus_shortname = 'aasiaeet';
 
 var load_disqus = function () {
   var nodes = document.getElementsByTagName('span');
@@ -58,7 +58,7 @@ if ( !ds_loaded && ( window.scrollY || window.pageYOffset ) + window.innerHeight
 // ***********************************
 $(document).ready(function() {
   $('.show-comments').on('click', function(){
-    var disqus_shortname = 'fatemehkh';
+    var disqus_shortname = 'aasiaeet';
 
           // ajax request to load the disqus javascript
           $.ajax({
