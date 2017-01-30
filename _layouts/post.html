@@ -13,12 +13,12 @@ layout: default
   </article>
   
 
-  <!--small id="post-tags">
+  <small id="post-tags">
     {% for tag in page.tags %}
     <i class="icon-tags"></i>
-    <a rel="tag" href="/mycancerandi/tag/{{tag}}">{{tag}}</a> &nbsp;
+    <a rel="tag" href="{{ tag | tag_url  }}">{{tag}}</a> &nbsp;
     {% endfor %}
-  </small-->
+  </small>
 
   <div style="border-top:1px dotted;">
     <p>
